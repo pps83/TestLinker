@@ -134,6 +134,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="testLinker.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="TurboPFor\vs\vs2017\TurboPFor.vcxproj">
+      <Project>{a162f37f-183f-4250-88ab-9b9fbde30b04}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
