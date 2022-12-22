@@ -1,0 +1,7 @@
+.vs/
+msvc.build/
+*.vcxproj.user
+/x64
+/Debug
+/Release
+/JSON
